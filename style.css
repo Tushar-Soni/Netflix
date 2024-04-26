@@ -1,0 +1,470 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+.main-container{
+    width: 100%;
+    height: auto;
+    background-image: url('./assets/IN-en-20240326-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 80px;
+    padding-block: 20px;
+
+}
+
+.nav img{
+    width: 150px;
+}
+
+.nav span button{
+    width: 130px;
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0.753);
+    border: none;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid white;
+}
+
+#sign-btn{
+    width: 100px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.hero-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-block: 100px;
+    color: white;
+    text-align: center;
+
+}
+
+.hero-section h1{
+    font-size: 70px;
+}
+.hero-section h6{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.hero-section p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+
+.hero-section span input{
+    width: 350px;
+    height: 50px;
+    border: 1px solid white;
+    background-color: rgba(54, 48, 48, 0.602);
+    padding-left: 30px;
+    border-radius: 4px;
+}
+
+.hero-section span button{
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+.hero-section span{
+    padding-block: 30px;
+}
+
+.hero-section p  br{
+    display: none;
+}
+
+
+
+
+/* card-container css */
+
+
+.card-container{
+    width: 100%;
+    height: auto;
+    background-color: rgb(40, 38, 38);
+    padding-block: 40px;
+
+}
+
+.card-section-one{
+    width: 100%;
+    height: auto;
+    padding-inline: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-block: 40px;
+
+}
+
+
+.card-section-two{
+    width: 100%;
+    height: auto;
+    padding-inline: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-block: 40px;
+}
+
+.cards{
+    width: 250px;
+    height: 300px;
+    background: rgb(65,22,39);
+    background: linear-gradient(0deg, rgba(65,22,39,1) 0%, rgba(177,59,106,1) 100%);
+    border-radius: 30px;
+    padding: 30px;
+
+}
+.cards h3{
+    color: white;
+    font-size: 28px;
+}
+.cards p{
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.cards h5{
+    color: white;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+
+
+.card{
+    width: 250px;
+    height: 300px;
+    border-radius: 30px;
+    padding: 30px;
+    background: rgb(29,24,47);
+background: linear-gradient(0deg, rgba(29,24,47,1) 0%, rgba(60,49,102,1) 100%);
+
+}
+
+.card h4{
+    color: white;
+    font-size: 22px;
+}
+
+.card p{
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+
+.icon-box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-top: 100px;
+}
+
+.icon-box img{
+    width: 50px;
+}
+
+.text{
+    width: 100%;
+    height: auto;
+    padding-left: 100px;
+    color: white;
+}
+
+
+.faq-section{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding-left: 100px;
+    padding-block: 50px;
+}
+
+.faq-container{
+    width: 100%;
+    height: auto;
+    padding-block: 40px;
+  
+
+
+}
+
+
+.faq-section h5{
+    color: white;
+    font-size: 24px;
+}
+
+.faq-box{
+    width: 60%;
+    height: 70px;
+    background-color: rgb(51, 50, 50);
+    margin-top: 30px;
+
+}
+.faq-box span{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 22px;
+    padding-inline: 30px;
+}
+.faq-box:hover{
+    background-color: gray;
+}
+
+
+.last-section{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding-block: 50px;
+    
+}
+
+.last-section span{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 20px;
+}
+.last-section p{
+    color: white;
+    font-size: 20px;
+    padding-left: 120px;
+}
+
+.last-section span input{
+    width: 60%;
+    height: 50px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding-left: 40px;
+}
+.last-section span button{
+    width: 20%;
+    height: 50px;
+    background-color: red;
+    border-radius: 3px;
+    border: none;
+    color: white;
+}
+
+.last-section p br{
+    display: none;
+}
+
+
+.footer-section{
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+.footer-section p{
+    color: white;
+    font-size: 16px;
+    padding-left: 100px;
+}
+
+.footer-part{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-block: 40px;
+
+}
+
+.footer-part ul li a{
+    color: white;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+
+/* Responsive Design code */
+
+
+@media (max-width : 768px) {
+
+    .main-container{
+        width: 100%;
+        height: auto;
+        background-position: center;
+        background-size: cover;
+    }
+    .nav{
+        width: 100%;
+        height: 60px;
+        padding-inline: 30px;
+    }
+    .nav span button{
+        width: 120px;
+    }
+    #sign-btn{
+        width: 80px;
+    }
+    .hero-section{
+        width: 100%;
+        height: auto;
+    }
+    .hero-section h1{
+        font-size: 35px;
+    }
+    .hero-section p br{
+        display: inline;
+    }
+
+    .hero-section span input{
+        width: 220px;
+      
+    }
+    .hero-section span button{
+        width: 150px;
+    }
+
+
+    .card-container{
+        width: 100%;
+        height: auto;
+    }
+
+    .card-section-one{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .card-section-two{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .card{
+        width: 400px;
+        height: 200px;
+        margin-top: 20px;
+    }
+    .cards{
+        width: 400px;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    .cards h3{
+        font-size: 20px;
+    }
+    .cards p{
+        font-size: 14px;
+    }
+
+    .card h4{
+        font-size: 20px;
+
+    }
+    .card p{
+        font-size: 14px;
+    }
+    .icon-box{
+        padding-top: 30px;
+    }
+    .faq-section{
+        width: 100%;
+        height: auto;
+        padding-left: 0px;
+    }
+    .faq-container{
+        width: 100%;
+        height: auto;
+        padding-inline: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .faq-box{
+        font-size: 16px;
+    }
+    .faq-section h5{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .last-section{
+        width: 100%;
+        height: auto;
+    }
+
+    .last-section span{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+   
+    .last-section p{
+        padding-left: 0px;
+        text-align: center;
+        font-size: 16px;
+    }
+    .last-section span button{
+        margin-top: 20px;
+    }
+
+    .footer-section{
+        width: 100%;
+        height: auto;
+    }
+    .footer-part{
+        width: 100%;
+        height: auto;
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;
+        padding-inline: 40px;
+    }
+
+    .footer-section p{
+        text-align: center;
+        padding-left: 0px;
+    }
+}
